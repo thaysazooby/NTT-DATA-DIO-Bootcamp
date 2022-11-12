@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Dr. Albieri de Reproducao Humana e Fertilidade</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu"> <audio autop lay controls>>
+                <source src="./src/trilha sonora.mp3"> Seu navegador nao tem suporte de audio
+            </audio>
+            <h3>
+                <ul>
+                    <li><a href="./index.html">Home</a></li><br />
+                    <li><a href="./sobre.html">Sobre</a></li><br />
+                    <li><a href="./horarios.html">Horarios</a></li><br />
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </h3>
+        </div>
+
+        <div class="main">
+            <div class="header"> <img title="DNA" alt="Imagem de capa sequencia de dna" src="./src/celulas-tronco.webp"
+                    width="1000" />
+                <h1 align="center">Clinica Dr. Albieri de Reproducao Humana e Fertilidade</h1>
+            </div>
+
+            <div class="content" align="center">
+                <form onsubmit="" method="get">
+                <h2>Gostaria de agendar uma consulta?</h2>
+                <label for="nome">Nome</label>
+                <input type="text" id="nomeid" placeholder="digite seu nome" required="required" name="nome" /><br/><br/>
+
+                <label for="fone">Fone</label>
+                <input type="tel" id="foneid" placeholder="(--)----- ----" name="fone" /><br/><br/> 
+                
+                <label for="email">Email</label>
+                <input type="email" id="emailid" placeholder="digite seu email" name="email" /><br/><br/>
+
+                <textarea rows="5" cols="30" placeholder="Deixe sua mensagem"></textarea><br/>
+                <button type="submit">enviar</button>
+                <button type="reset">limpar</button>
+            </form>
+                
+                <h2>Nossa Localizacao</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6980758.744268843!2d-11.648744215199468!3d31.31552821785086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2eb8f9b7a95%3A0x37fdf37c32cd57c5!2sIrifiv%20Center!5e0!3m2!1spt-PT!2sbr!4v1668295121070!5m2!1spt-PT!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h2>Contato:</h2>
+                   <p>Endereco: 13, place du Nid d'Iris 20100 Quartier, Casablanca, Marrocos<br/><br/>Telefone: +212662826023 | +55 81 98765.4321 (WhatsApp)</p>
+            </div>
+
+            <div class="footer">
+                <br />
+                <span id="telefone" align="center">
+                    <h4>Telefone: +212662826023 | +55 81 98765.4321 (WhatsApp) </h4>
+                </span>
+                <span id="email" align="center">
+                    <fieldset>
+                        <h3>Deixe seu contato</h3>
+                        <input type="email" id="inputEmail" placeholder="Digite seu email">
+                        <button>enviar</button>
+                    </fieldset>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
